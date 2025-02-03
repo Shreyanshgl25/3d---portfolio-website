@@ -29,7 +29,7 @@ const Navbar = () => {
           </p>
         </Link>
         <a
-          href="mailto:shreyanshgl2003@gmail.com@gmail.com"
+          href="mailto:shreyanshgl2003@gmail.com"
           className={`text-gray-400 text-[18px] font-medium cursor-pointer`}
         >
           shreyanshgl2003@gmail.com

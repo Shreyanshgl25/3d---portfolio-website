@@ -22,7 +22,7 @@ const Hero = () => {
             <span className="text-[#915eff]">Shreyansh Goyal</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop Full stack web application along with 3d web applications
+          Data Science and Machine Learning enthusiast, as well as a Full-Stack Web Developer
           </p>
         </div>
       </div>

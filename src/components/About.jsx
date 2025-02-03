@@ -42,11 +42,11 @@ const About = () => {
         varients={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hi, I'm Shreyansh Goyal, a passionate Full Stack Developer and 3D Design
-        enthusiast. I specialize in crafting dynamic web applications that merge
-        functionality with stunning visuals. With a knack for innovation and
-        attention to detail, I transform ideas into immersive digital
-        experiences. Let's build something extraordinary together!
+        Hi, I'm Shreyansh Goyal, a Data Science and Machine Learning enthusiast, as well as a skilled Full-Stack Web Developer. I specialize in developing intelligent, data-driven solutions that transform raw information into meaningful insights. Whether it's building predictive models, automating processes, or implementing AI-powered applications, I thrive on leveraging data to drive innovation.
+
+In addition to my expertise in ML, I craft dynamic and scalable web applications, ensuring seamless integration between intelligent systems and user-friendly interfaces. With a passion for problem-solving and an eye for detail, I love turning complex challenges into impactful digital experiences. Let’s collaborate and create something extraordinary!
+
+
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
