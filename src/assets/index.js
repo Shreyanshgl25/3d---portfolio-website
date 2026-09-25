@@ -36,6 +36,9 @@ import ecom from "./EcomTanmay.png";
 
 import ATG from "./company/ATG.jpg"
 import Fam from "./company/icon.svg"
+import thoughtsol from "./company/thoughtsol.jpg"
+import careertronic from "./company/careertronic.jpg"
+import iitkgp from "./company/iitkgp.png"
 
 export {
   alma,
@@ -43,6 +46,9 @@ export {
   ecom,
   ATG,
   Fam,
+  thoughtsol,
+  careertronic,
+  iitkgp,
   logo,
   backend,
   creator,

@@ -26,9 +26,17 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+        <div className="flex flex-wrap items-center gap-2">
+          <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+          {experience.employment_type && (
+            <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-white/10 text-white-100">
+              {experience.employment_type}
+            </span>
+          )}
+        </div>
         <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>
           {experience.company_name}
+          {experience.location ? ` · ${experience.location}` : ""}
         </p>
       </div>
 

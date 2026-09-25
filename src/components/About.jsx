@@ -56,18 +56,17 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] space-y-4"
       >
         <p>
-          Hi, I'm {profile.name}, a Data Science and Machine Learning enthusiast, as well as
-          a skilled Full-Stack Web Developer. I specialize in developing intelligent,
-          data-driven solutions that transform raw information into meaningful insights.
-          Whether it's building predictive models, automating processes, or implementing
-          AI-powered applications, I thrive on leveraging data to drive innovation.
+          Hi, I'm {profile.name}, an AI Engineer working across GenAI, agentic AI, and
+          Retrieval-Augmented Generation. I build LLM-powered systems — from conversational
+          chatbots and voice agents to CCTV-based computer vision pipelines — and deploy them
+          across Microsoft Azure and Google Cloud Platform.
         </p>
         <p>
-          In addition to my expertise in ML, I craft dynamic and scalable web applications,
-          ensuring seamless integration between intelligent systems and user-friendly
-          interfaces. With a passion for problem-solving and an eye for detail, I love turning
-          complex challenges into impactful digital experiences. Let's collaborate and create
-          something extraordinary!
+          I also have a strong Full-Stack (MERN) background, so I'm comfortable owning a
+          project end to end: designing the retrieval pipeline, wiring up the model or agent
+          logic, and shipping a production-ready interface around it. I enjoy turning ambitious
+          AI ideas into working, reliable products. Let's collaborate and build something
+          extraordinary!
         </p>
       </motion.div>
 

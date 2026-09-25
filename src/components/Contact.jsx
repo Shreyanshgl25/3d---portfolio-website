@@ -22,6 +22,7 @@ const inputClass =
 
 const contactLinks = [
   { label: "Email", value: profile.email, href: `mailto:${profile.email}`, icon: "mail" },
+  { label: "Phone", value: profile.phone, href: `tel:${profile.phone}`, icon: "mail" },
   { label: "LinkedIn", value: "Connect with me", href: profile.linkedin, icon: "linkedin" },
   { label: "GitHub", value: "Browse my code", href: profile.github, icon: "github" },
   { label: "Resume", value: "View / download", href: profile.resume, icon: "file" },
@@ -210,7 +211,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 md:h-[550px] h-[350px]"
       >
         <LazyMount className="w-full h-full">
           <EarthCanvas />
