@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import profilePhoto from "./profile.jpeg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -41,6 +42,7 @@ import careertronic from "./company/careertronic.jpg"
 import iitkgp from "./company/iitkgp.png"
 
 export {
+  profilePhoto,
   alma,
   crud,
   ecom,

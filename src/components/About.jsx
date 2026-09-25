@@ -5,6 +5,7 @@ import { SectionWrapper } from "../hoc";
 
 import { styles } from "../styles";
 import { services, stats, profile } from "../constants/index";
+import { profilePhoto } from "../assets";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const Counter = ({ to, suffix = "" }) => {
@@ -51,24 +52,43 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
-      <motion.div
-        variants={fadeIn("", "tween", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] space-y-4"
-      >
-        <p>
-          Hi, I'm {profile.name}, an AI Engineer working across GenAI, agentic AI, and
-          Retrieval-Augmented Generation. I build LLM-powered systems — from conversational
-          chatbots and voice agents to CCTV-based computer vision pipelines — and deploy them
-          across Microsoft Azure and Google Cloud Platform.
-        </p>
-        <p>
-          I also have a strong Full-Stack (MERN) background, so I'm comfortable owning a
-          project end to end: designing the retrieval pipeline, wiring up the model or agent
-          logic, and shipping a production-ready interface around it. I enjoy turning ambitious
-          AI ideas into working, reliable products. Let's collaborate and build something
-          extraordinary!
-        </p>
-      </motion.div>
+      <div className="mt-4 flex flex-col lg:flex-row items-center lg:items-start gap-10">
+        <motion.div
+          variants={fadeIn("", "tween", 0.1, 1)}
+          className="text-secondary text-[17px] max-w-3xl leading-[30px] space-y-4 order-2 lg:order-1"
+        >
+          <p>
+            Hi, I'm {profile.name}, an AI Engineer working across GenAI, agentic AI, and
+            Retrieval-Augmented Generation. I build LLM-powered systems — from conversational
+            chatbots and voice agents to CCTV-based computer vision pipelines — and deploy them
+            across Microsoft Azure and Google Cloud Platform.
+          </p>
+          <p>
+            I also have a strong Full-Stack (MERN) background, so I'm comfortable owning a
+            project end to end: designing the retrieval pipeline, wiring up the model or agent
+            logic, and shipping a production-ready interface around it. I enjoy turning ambitious
+            AI ideas into working, reliable products. Let's collaborate and build something
+            extraordinary!
+          </p>
+        </motion.div>
+
+        <motion.div
+          variants={fadeIn("left", "spring", 0.2, 0.9)}
+          className="order-1 lg:order-2 shrink-0"
+        >
+          <div className="relative w-[190px] h-[190px] sm:w-[220px] sm:h-[220px]">
+            <div className="absolute inset-0 rounded-full green-pink-gradient p-[3px]">
+              <div className="w-full h-full rounded-full bg-primary p-[6px]">
+                <img
+                  src={profilePhoto}
+                  alt={profile.name}
+                  className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      </div>
 
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 0.8)}
